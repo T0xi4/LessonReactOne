@@ -13,10 +13,10 @@ return (
 <div className='App'>
 <h1>Привет, мир!</h1>
 <p>Это мое первое React-приложение.</p>
-<Welcome name= "Anna" />
-<Counter/>
+{/* <Welcome name= "Anna" />
+<Counter/> 
 <TextInput/>
-<Form/>
+<Form/> */}
 <TodoApp/>
 </div>
 );

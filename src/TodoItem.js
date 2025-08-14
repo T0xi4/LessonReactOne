@@ -1,9 +1,8 @@
-function TodoItem () {
+function TodoItem ({task, onDelete}) {
     return (
         <li>
             {task.text}
-            <button onClick={() => deleteTask(task.id)}>Удалить</button>
-
+            <button onClick={() => onDelete(task.id)}>Удалить</button>
         </li>
     );
 }
