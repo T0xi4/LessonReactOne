@@ -22,5 +22,4 @@ return (
 );
 }
 export default App;
-
-
+//Тест для комита
